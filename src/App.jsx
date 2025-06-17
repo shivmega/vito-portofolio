@@ -6,7 +6,7 @@ import NotFound from "./pages/NotFound";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/vito-portofolio">
         <Routes>
           <Route index element={<Home />} />
           <Route path="*" element={<NotFound />} />
