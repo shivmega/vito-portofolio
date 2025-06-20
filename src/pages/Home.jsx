@@ -65,7 +65,9 @@ export const Home = () => {
               </p>
               <div className="flex items-center gap-4 ">
                 <button
-                  onClick={() => window.open("assets/resume.pdf", "_blank")}
+                  onClick={() =>
+                    window.open("assets/Vito Megataruna_CV.pdf", "_blank")
+                  }
                   className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-500 inline-flex gap-2 "
                 >
                   <FileDown size={24}></FileDown>
